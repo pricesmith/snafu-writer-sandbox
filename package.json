@@ -1,0 +1,16 @@
+{
+    "name":         "snafu-writer",
+    "version":      "1.0.0",
+    "description":  "SNAFU Writer",
+
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "kotatsu serve --config ./webpack.config.js --typescript ./src/index.ts --public / ./public"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "kotatsu": "^0.22.3",
+        "raw-loader": "^4.0.2",
+        "typescript": "4.4.4"
+    }
+}
